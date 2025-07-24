@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+  </style>
+<body>
+    <h1>sign up</h1>
+    <form action = "/user" method="post">
+        <label>
+            Full Name
+        </label>
+        <input type="text" required name="name">
+        <label>
+            Email
+        </label>
+        <input type="text" required name="email">
+        <label>
+            Password
+        </label>
+        <input type="text" required name="password">
+
+        <button type="text">Sign Up</button>
+    </form>
+    
+</body>
+</html>
